@@ -18,11 +18,9 @@ console.log(pcNumber)
 let somma= userNumber + pcNumber;
 console.log (somma)
 
-if(userNumber == pcNumber){
-    alert('pari')
-}
 
-else if(somma % 2===0 && userSide === 'pari'){
+
+if(somma % 2===0 && userSide === 'pari'){
     alert('Hai vinto')
 }
 
